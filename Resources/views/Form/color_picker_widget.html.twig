@@ -1,0 +1,8 @@
+{% block color_picker_widget %}
+    <input {{ block('widget_attributes') }} value="{{ value|default('#FF0000') }}"/>
+
+    <script type="text/javascript" src="{{ asset('bundles/colorpicker/js/jqColorPicker.min.js') }}"></script>
+    <script type="text/javascript">
+        $('.colorpicker').colorPicker();
+    </script>
+{% endblock %}
