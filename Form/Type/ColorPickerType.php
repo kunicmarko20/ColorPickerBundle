@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Marko Kunic
  * Date: 9/8/17
- * Time: 11:53 PM
+ * Time: 11:53 PM.
  */
 
 namespace KunicMarko\ColorPickerBundle\Form\Type;
@@ -24,11 +24,11 @@ class ColorPickerType extends AbstractType
      */
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
-        $resolver->setDefaults(array(
-            'attr' => array(
-                'class' => 'form-control colorpicker'
-            ),
-        ));
+        $resolver->setDefaults([
+            'attr' => [
+                'class' => 'form-control colorpicker',
+            ],
+        ]);
     }
 
     /**
