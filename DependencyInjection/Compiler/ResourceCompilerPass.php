@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Marko Kunic
  * Date: 9/9/17
- * Time: 12:29 AM
+ * Time: 12:29 AM.
  */
 
 namespace KunicMarko\ColorPickerBundle\DependencyInjection\Compiler;
