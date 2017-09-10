@@ -3,6 +3,7 @@ Color Picker Bundle
 
 [![Build Status](https://travis-ci.org/kunicmarko20/ColorPickerBundle.svg?branch=master)](https://travis-ci.org/kunicmarko20/ColorPickerBundle)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/8a279415-4597-49d8-923a-34a3f4c315f1/mini.png)](https://insight.sensiolabs.com/projects/8a279415-4597-49d8-923a-34a3f4c315f1)
+[![StyleCI](https://styleci.io/repos/102910747/shield)](https://styleci.io/repos/102910747)
 
 Adds Color Picker Form Type to Symfony.
 
@@ -38,7 +39,7 @@ app/console assets:install
 
 ## How to use
 
-In your twig template you can render it with:
+In your form you can add it like:
 ```
 // Symfony 2.8 and newer versions
 use KunicMarko\ColorPickerBundle\Form\Type\ColorPickerType;
