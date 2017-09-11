@@ -8,6 +8,7 @@ php:
     
 install: .travis/install.sh
 script: .travis/script.sh
+after_success: .travis/success.sh
 
 matrix:
   fast_finish: true
