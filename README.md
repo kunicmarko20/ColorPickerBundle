@@ -47,3 +47,11 @@ use KunicMarko\ColorPickerBundle\Form\Type\ColorPickerType;
 
 $builder->add('field', ColorPickerType::class);
 ```
+
+At the end of your body/layout add:
+```
+<script type="text/javascript" src="{{ asset('bundles/colorpicker/js/jqColorPicker.min.js') }}"></script>
+<script type="text/javascript">
+    $('.colorpicker').colorPicker();
+</script>
+```
