@@ -1,7 +1,6 @@
 language: php
 
 php:
-  - '5.6'
   - '7.0'
   - '7.1'
   - nightly
@@ -14,13 +13,11 @@ matrix:
   fast_finish: true
   include:
     - php: '7.1'
-      env: SYMFONY=2.8.*
-    - php: '7.1'
-      env: SYMFONY=3.1.*
-    - php: '7.1'
-      env: SYMFONY=3.2.*
-    - php: '7.1'
       env: SYMFONY=3.3.*
+    - php: '7.1'
+      env: SYMFONY=3.4.*
+    - php: '7.1'
+      env: SYMFONY=4.0.*
 
   allow_failures:
     - php: nightly
